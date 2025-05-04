@@ -8,23 +8,23 @@ export default function Page() {
       </h1>
       <h2 className="text-xl mb-4">
         This is my react app to showcase my projects while I grow as a designer. 
-        I'm currently working on classwork for Cogs 125. Follow me on my journey!
+        I am currently working on classwork for Cogs 125. Follow me on my journey!
       </h2>
       <h3 className="text-2xl font-bold mt-8">Projects</h3>
       <ul className="list-disc ml-6">
         <li>
           <Link href="/projects/1" className="text-blue-500 hover:underline">
-            Portfolio Website
+            Goalee
           </Link>
         </li>
         <li>
           <Link href="/projects/2" className="text-blue-500 hover:underline">
-            Weather App
+            Eco-Defender
           </Link>
         </li>
         <li>
           <Link href="/projects/3" className="text-blue-500 hover:underline">
-            Task Manager
+            85 Degrees Bakery Kiosk
           </Link>
         </li>
       </ul>
