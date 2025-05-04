@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold mb-6">
-        Owen Dirkes' Portfolio
+        Owen Dirkes&#39; Portfolio
       </h1>
       <h2 className="text-xl mb-4">
         This is my react app to showcase my projects while I grow as a designer. 
