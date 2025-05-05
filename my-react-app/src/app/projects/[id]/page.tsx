@@ -4,9 +4,12 @@ const projects = {
   3: { title: "85 Degrees Bakery Kiosk", description: "A physical kiosk my team and I developed as a part of DSGN 100. Our kiosk was based around 85 Degrees Bakery Cafe, as a way for customers to purchase pastries outside of traditional brick-and-mortar stores. I worked on our user interfaces and kiosk branding." },
 };
 
-// This function tells Next.js which dynamic routes to pre-render
 export function generateStaticParams() {
-  return Object.keys(projects).map((id) => ({ id }));
+  return [
+    { id: "1" },
+    { id: "2" },
+    { id: "3" }
+  ];
 }
 
 export default function ProjectPage({ params }: { params: { id: string } }) {
