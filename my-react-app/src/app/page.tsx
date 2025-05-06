@@ -7,7 +7,7 @@ export default function Page() {
         Owen Dirkes&#39; Portfolio
       </h1>
       <h2 className="text-xl mb-4">
-        This is my react app to showcase my projects while I grow as a designer. 
+        This is my React app to showcase my projects while I grow as a designer. 
         I am currently working on classwork for Cogs 125. Follow me on my journey!
       </h2>
       <h3 className="text-2xl font-bold mt-8">Projects</h3>
