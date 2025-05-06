@@ -5,7 +5,9 @@ const projects = {
 };
 
 export function generateStaticParams() {
-  return Object.keys(projects).map((id) => ({ id }));
+  const params = Object.keys(projects).map((id) => ({ id }));
+  console.log("Generated Static Params:", params); // Debugging
+  return params;
 }
 
 export default async function ProjectPage({ params }: { params: Promise<{ id: string }> }) {
